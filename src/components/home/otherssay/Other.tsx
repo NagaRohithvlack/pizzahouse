@@ -24,7 +24,7 @@ function Other() {
                 <div className="w-3/6 flex flex-col gap-8 p-8">
                     <div className="flex flex-col justify-center text-left gap-4">
                         <h1 className="text-3xl font-semibold ">{OthersData[0].title}</h1>
-                        <p className="text-xl font-medium">Lorem ipsum dolor sit amet, consectetur adipi</p>
+                        <p className="text-xl font-medium">Discover the ultimate pizza experience at Pizza House!!!</p>
                         <p className="text-lg text-justify">{OthersData[0].content}</p>
                     </div>
                     
