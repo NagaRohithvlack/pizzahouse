@@ -7,18 +7,18 @@ export const SpecialsData = [
         id: 1,
         img: pizza1,
         title: "Spicy Salami Pizza",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, consequatur. ",
+        content: "Spicy salami, tomato sauce, mozzarella on thin crust. Savory delight!",
     },
     {
         id: 2,
         img: pizza2,
         title: "Shrimp Pizza",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, consequatur. ",
+        content: "Shrimp, fresh veggies, garlic sauce, Parmesan on crispy artisan crust.",
     },
     {
         id: 3,
         img: pizza3,
         title: "Paneer Makhani Pizza",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, consequatur. ",
+        content: "Paneer in makhani sauce, onions, bell peppers on fluffy naan crust.",
     }
 ]

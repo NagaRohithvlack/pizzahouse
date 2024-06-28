@@ -12,13 +12,10 @@ function Specials() {
             <div className="flex flex-col justify-center items-center gap-6">
                 <div className="flex flex-col gap-2 text-center">
                     <h1 className="text-4xl font-medium">Summer's Specials</h1>
-                    <p className="text-xl">Lorem ipsum dolor sit amet, consectetur adipi</p>
+                    <p className="text-xl">Savor the Season: Discover Our Irresistible Summer Specials!</p>
                 </div>
 
                 <nav className=" flex justify-center items-center bg-[#FFF5EF] text-3xl gap-8 p-2 font-medium">
-                    {/* <Link to="appetizer">Appetizer's</Link>
-                    <Link to="maindish">Main Dish</Link>
-                    <Link to="desserts">Desserts</Link> */}
 
                     <p>Appetizer's</p>
                     <p>Main Dish</p>

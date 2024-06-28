@@ -1,237 +1,244 @@
 import Pizzam1 from "../../../assets/imgs/pizza1.png"
+import pizzam2 from "../../../assets/imgs/pizzam2.webp"
+import saladm1 from "../../../assets/imgs/saladm1.png"
+import pastam1 from "../../../assets/imgs/pastam1.png"
+import burgerm1 from "../../../assets/imgs/burgerm1.png"
+import dessertsm1 from "../../../assets/imgs/dessertsm1.png"
+import drinksm1 from "../../../assets/imgs/drinksm1.png"
+
 
 export const FoodMenuData = [
     [
     {
         img: Pizzam1,
-        title: "BARBECUE PIZZA",
+        title: "Margherita Classic",
         price: "\u20B9 299.00",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+        content: "A traditional Italian favorite with fresh tomato sauce, mozzarella cheese, and basil on a thin crust."
     },
     {
-        img: Pizzam1,
-        title: "pizza2",
+        img: pizzam2,
+        title: "Pepperoni Passion",
         price: "\u20B9 269.00",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+        content: "Loaded with spicy pepperoni slices, mozzarella cheese, and a zesty tomato sauce on a hand-tossed crust."
     },
     {
         img: Pizzam1,
-        title: "pizza3",
+        title: "Mediterranean Delight",
         price: "\u20B9 269.00",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+        content: "A taste of the Mediterranean with feta cheese, olives, sun-dried tomatoes, and spinach on a garlic-infused crust."
     },
     {
         img: Pizzam1,
-        title: "pizza4",
+        title: "BBQ Chicken Feast",
         price: "\u20B9 359.00",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+        content: "Tangy BBQ sauce, grilled chicken, red onions, and cilantro on a crispy crust, topped with melted mozzarella.."
     },
     {
         img: Pizzam1,
-        title: "pizza5",
+        title: "Meat Lover's Dream",
         price: "\u20B9 359.00",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+        content: "A carnivore's delight featuring pepperoni, sausage, bacon, and ground beef on a thick and hearty crust."
     },
     {
         img: Pizzam1,
-        title: "pizza6",
+        title: "Buffalo Chicken Kick",
         price: "\u20B9 129.00",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+        content: "Spicy buffalo sauce, grilled chicken strips, red onions, and blue cheese crumbles on a hand-tossed crust."
     }
     ],
 
     [
         {
-            img: Pizzam1,
-            title: "Salad1",
+            img: saladm1,
+            title: "Classic Caesar Salad",
             price: "\u20B9 299.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Crisp romaine lettuce tossed in creamy Caesar dressing, topped with Parmesan cheese and garlic croutons."
         },
         {
-            img: Pizzam1,
-            title: "Salad2",
+            img: saladm1,
+            title: "Mediterranean Quinoa Salad",
             price: "\u20B9 269.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Nutritious quinoa mixed with cucumber, cherry tomatoes, Kalamata olives, red onion, and feta cheese, dressed with a lemon-herb vinaigrette."
         },
         {
-            img: Pizzam1,
-            title: "Salad3",
+            img: saladm1,
+            title: "Caprese Salad",
             price: "\u20B9 269.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Fresh mozzarella cheese, ripe tomatoes, and basil leaves drizzled with balsamic glaze and extra virgin olive oil."
         },
         {
-            img: Pizzam1,
-            title: "Salad4",
+            img: saladm1,
+            title: "Asian Sesame Chicken Salad",
             price: "\u20B9 359.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Grilled chicken breast, mixed greens, shredded carrots, crunchy almonds, and crispy wonton strips tossed in a sesame ginger dressing."
         },
         {
-            img: Pizzam1,
-            title: "Salad5",
+            img: saladm1,
+            title: "Greek Salad",
             price: "\u20B9 359.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Crisp lettuce, cucumbers, red onion, bell peppers, Kalamata olives, and feta cheese, tossed in a Greek vinaigrette dressing."
         },
         {
-            img: Pizzam1,
-            title: "Salad6",
+            img: saladm1,
+            title: "Southwest Chicken Salad",
             price: "\u20B9 129.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Grilled chicken breast, black beans, corn, avocado, cherry tomatoes, and crispy tortilla strips on a bed of mixed greens, served with a spicy chipotle ranch dressing."
         } 
     ],
 
     [
         {
-            img: Pizzam1,
-            title: "Pasta1",
+            img: pastam1,
+            title: "Spaghetti Bolognese",
             price: "\u20B9 299.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Spaghetti noodles served with a hearty meat sauce made from ground beef, tomatoes, onions, carrots, celery, and herbs, topped with Parmesan cheese."
         },
         {
-            img: Pizzam1,
-            title: "Pasta2",
+            img: pastam1,
+            title: "Penne alla Vodka",
             price: "\u20B9 269.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Penne pasta in a creamy tomato sauce infused with vodka, garlic, onions, crushed red pepper flakes, and finished with heavy cream and Parmesan cheese."
         },
         {
-            img: Pizzam1,
-            title: "Pasta3",
+            img: pastam1,
+            title: "Fettuccine Alfredo",
             price: "\u20B9 269.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Wide ribbons of fettuccine pasta coated in a luxurious Alfredo sauce made with butter, heavy cream, and Parmesan cheese, seasoned with black pepper and nutmeg."
         },
         {
-            img: Pizzam1,
-            title: "Pasta4",
+            img: pastam1,
+            title: "Spaghetti Carbonara",
             price: "\u20B9 359.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Spaghetti tossed with a creamy sauce of eggs, Parmesan cheese, crispy pancetta, and black pepper, creating a rich and satisfying dish."
         },
         {
-            img: Pizzam1,
-            title: "Pasta5",
+            img: pastam1,
+            title: "Lasagna",
             price: "\u20B9 359.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Layers of wide lasagna noodles alternated with Bolognese sauce (ground chicken and tomato sauce), creamy béchamel sauce, and melted mozzarella cheese."
         },
         {
-            img: Pizzam1,
-            title: "Pasta6",
+            img: pastam1,
+            title: "Penne Arrabbiata",
             price: "\u20B9 129.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Penne pasta served with a spicy tomato sauce made with garlic, red chili peppers, tomatoes, and olive oil, finished with fresh parsley and grated Parmesan cheese."
         } 
     ],
 
     [
         {
-            img: Pizzam1,
-            title: "Burger1",
+            img: burgerm1,
+            title: "Spicy Chicken burger",
             price: "\u20B9 299.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Spicy breaded chicken breast topped with lettuce, pickles, and a creamy spicy sauce on a toasted brioche bun."
         },
         {
-            img: Pizzam1,
-            title: "Burger2",
+            img: burgerm1,
+            title: "Caprese Chicken burger",
             price: "\u20B9 269.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Grilled chicken breast topped with mozzarella cheese, tomato slices, fresh basil leaves, and balsamic glaze on a ciabatta bun."
         },
         {
-            img: Pizzam1,
-            title: "Burger3",
+            img: burgerm1,
+            title: "BBQ Chicken Cheddar burger",
             price: "\u20B9 269.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "Grilled or crispy chicken breast topped with crispy bacon, cheddar cheese, BBQ sauce, lettuce, and tomato on a toasted bun."
         },
         {
-            img: Pizzam1,
-            title: "Burger4",
+            img: burgerm1,
+            title: "Mushroom Swiss Burger",
             price: "\u20B9 359.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A patty topped with sautéed mushrooms, melted Swiss cheese, lettuce, tomato, and a garlic aioli sauce on a toasted pretzel bun."
         },
         {
-            img: Pizzam1,
-            title: "Burger5",
+            img: burgerm1,
+            title: "Veggie Burger",
             price: "\u20B9 359.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A plant-based patty made from a blend of vegetables, grains, and legumes, topped with lettuce, tomato, onions, pickles, and a choice of sauce (such as mayo or mustard) on a whole wheat bun."
         },
         {
-            img: Pizzam1,
-            title: "Burger6",
+            img: burgerm1,
+            title: "Black Bean Burger",
             price: "\u20B9 129.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A hearty black bean patty seasoned with spices like cumin and chili powder, topped with pepper jack cheese, lettuce, tomato, avocado slices, and chipotle mayo on a whole grain bun."
         } 
     ],
 
     [
         {
-            img: Pizzam1,
-            title: "Desserts1",
+            img: dessertsm1,
+            title: "Chocolate Mousse",
             price: "\u20B9 299.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A light and airy dessert made with whipped chocolate ganache, layered in a glass or served in a bowl, garnished with chocolate shavings or whipped cream."
         },
         {
-            img: Pizzam1,
-            title: "Desserts2",
+            img: dessertsm1,
+            title: "New York Cheesecake",
             price: "\u20B9 269.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A creamy and dense cheesecake with a graham cracker crust, topped with a layer of sour cream or fruit compote, and garnished with fresh berries."
         },
         {
-            img: Pizzam1,
-            title: "Desserts3",
+            img: dessertsm1,
+            title: "Tiramisu",
             price: "\u20B9 269.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "An Italian classic dessert made with layers of espresso-soaked ladyfingers and mascarpone cheese, dusted with cocoa powder on top."
         },
         {
-            img: Pizzam1,
-            title: "Desserts4",
+            img: dessertsm1,
+            title: "Crème Brûlée",
             price: "\u20B9 359.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A creamy vanilla custard topped with a crisp caramelized sugar crust, served chilled and garnished with fresh berries."
         },
         {
-            img: Pizzam1,
-            title: "Desserts5",
+            img: dessertsm1,
+            title: "Caramel Flan",
             price: "\u20B9 359.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A silky smooth custard dessert with a layer of caramelized sugar on top, served chilled and inverted onto a plate to reveal the caramel sauce."
         },
         {
-            img: Pizzam1,
-            title: "Desserts6",
+            img: dessertsm1,
+            title: "Molten Chip Cookie",
             price: "\u20B9 129.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A warm and gooey chocolate chip cookie served straight from the oven, topped with a scoop of vanilla ice cream and drizzled with chocolate sauce."
         } 
     ],
 
     [
         {
-            img: Pizzam1,
-            title: "Drinks1",
+            img: drinksm1,
+            title: "Margarita",
             price: "\u20B9 299.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A classic cocktail made with tequila, triple sec, lime juice, and simple syrup, served over ice in a salt-rimmed glass, garnished with a lime wedge."
         },
         {
-            img: Pizzam1,
-            title: "Drinks2",
+            img: drinksm1,
+            title: "Mojito",
             price: "\u20B9 269.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A refreshing cocktail originating from Cuba, made with white rum, fresh mint leaves, lime juice, garnished with mint sprigs and a lime wedge."
         },
         {
-            img: Pizzam1,
-            title: "Drinks3",
+            img: drinksm1,
+            title: "Berry Lemonade",
             price: "\u20B9 269.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A sweet and tangy mocktail made with fresh mixed berries, lemon juice, simple syrup, and soda water, served over ice and garnished with berries and a lemon slice."
         },
         {
-            img: Pizzam1,
-            title: "Drinks4",
+            img: drinksm1,
+            title: "Iced Matcha Latte",
             price: "\u20B9 359.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A creamy and energizing mocktail made with matcha powder, milk  and sweetened with honey or simple syrup, served over ice and garnished with a dusting of matcha powder."
         },
         {
-            img: Pizzam1,
-            title: "Drinks5",
+            img: drinksm1,
+            title: "Italian Soda",
             price: "\u20B9 359.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A customizable mocktail made with sparkling water and flavored syrup, served over ice and optionally garnished with fresh fruit or a citrus twist."
         },
         {
-            img: Pizzam1,
-            title: "Drinks6",
+            img: drinksm1,
+            title: "Espresso Martini",
             price: "\u20B9 129.00",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a enim in doloremque libero. In."
+            content: "A sophisticated cocktail made with vodka, coffee liqueur  shaken with ice and strained into a martini glass, garnished with coffee beans."
         } 
     ],
 ]
