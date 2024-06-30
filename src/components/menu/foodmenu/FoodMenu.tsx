@@ -106,10 +106,10 @@
 
 // export default FoodMenu;
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FoodMenuData } from "./FoodMenuData";
 import { MenuData } from "./FoodMenuData";
-import { motion } from "framer-motion"; 
+// import { motion } from "framer-motion"; 
 
 function FoodMenu() {
     const [index, setIndex] = useState(0);
@@ -119,7 +119,7 @@ function FoodMenu() {
         setSelectedIndex(FoodMenuData[index]);
     }, [index]);
 
-    const handleClick = (clickedIndex) => {
+    const handleClick = (clickedIndex:number) => {
         setIndex(clickedIndex);
     };
 
